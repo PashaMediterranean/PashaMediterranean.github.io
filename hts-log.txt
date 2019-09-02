@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 30 Aug 2019 19:01:05 at www.hummusmed.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" www.hummusmed.com -O1 "C:\My Web Sites\HummusMed" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:04:04	Error: 	"Not Found" (404) at link www.hummusmed.com/HummusMK/assets/images/logo_big.jpg (from www.hummusmed.com/)
+19:05:03	Error: 	"Not Found" (404) at link www.hummusmed.com/assets/images/ref.outcontrol (from www.hummusmed.com/assets/images/favicon.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 58 seconds : 74 links scanned, 71 files written (5863879 bytes overall) [5883352 bytes received at 24719 bytes/sec], 1.4 requests per connection
+(2 errors, 0 warnings, 0 messages)
