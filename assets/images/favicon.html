@@ -1,0 +1,16 @@
+<h1>CException</h1>
+<p>SiteController cannot find the requested view "error". (/home/content/65/11971265/html/yoo/framework/web/CController.php:878)</p><pre>#0 /home/content/65/11971265/html/yoo/framework/web/CController.php(782): CController->renderPartial('error', NULL, true)
+#1 /home/content/65/11971265/html/protected/components/Controller.php(82): CController->render('error', NULL, false)
+#2 /home/content/65/11971265/html/protected/controllers/SiteController.php(337): Controller->render('error')
+#3 /home/content/65/11971265/html/yoo/framework/web/actions/CInlineAction.php(49): SiteController->actionError()
+#4 /home/content/65/11971265/html/yoo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/content/65/11971265/html/yoo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/content/65/11971265/html/yoo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/content/65/11971265/html/yoo/framework/web/CWebApplication.php(282): CController->run('error')
+#8 /home/content/65/11971265/html/yoo/framework/base/CErrorHandler.php(331): CWebApplication->runController('site/error')
+#9 /home/content/65/11971265/html/yoo/framework/base/CErrorHandler.php(204): CErrorHandler->render('error', Array)
+#10 /home/content/65/11971265/html/yoo/framework/base/CErrorHandler.php(129): CErrorHandler->handleException(Object(CHttpException))
+#11 /home/content/65/11971265/html/yoo/framework/base/CApplication.php(732): CErrorHandler->handle(Object(CExceptionEvent))
+#12 [internal function]: CApplication->handleException(Object(CHttpException))
+#13 {main}</pre><br />
+<b>Notice</b>:  ob_end_flush() [<a href='ref.html'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in <b>/home/content/65/11971265/html/protected/config/main.php(15) : runtime-created function</b> on line <b>1</b><br />
