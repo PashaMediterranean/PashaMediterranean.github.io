@@ -14,11 +14,11 @@ a:hover {
 .wrapper {
   width: 940px;
   margin: 45px auto;
-  background: #2d2e98;
+  background: rgba(0, 0, 0, 0.6);
   padding: 10px;
 }
 #content {
-  border: solid 1px #2d2e98;
+  border: solid 1px #a3a6a8;
 }
 .logo:hover,
 #menu:hover,
